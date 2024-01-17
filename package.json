@@ -1,0 +1,30 @@
+{
+  "name": "actions-delete-packages",
+  "version": "1.0.0",
+  "description": "GitHub Action for deleting GitHub Packages",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build ./src/index.ts -o dist --license licenses.txt",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zionex/actions-delete-packages.git"
+  },
+  "keywords": [
+    "actions-delete-package"
+  ],
+  "author": "Kyongho Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zionex/actions-delete-packages/issues"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@octokit/rest": "^19.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "typescript": "^4.8.3"
+  }
+}
