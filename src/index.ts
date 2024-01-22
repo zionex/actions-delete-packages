@@ -1,5 +1,5 @@
 import * as core from '@actions/core';
-import {Octokit} from '@octokit/rest';
+import { Octokit } from '@octokit/rest';
 
 type PackageType = 'maven' | 'npm' | 'rubygems' | 'docker' | 'nuget' | 'container';
 
